@@ -71,8 +71,6 @@ $(".card").click(function(){
                 
                     function setNewGame(){
                         alert("Plansza wyczyszczona! Generowanie nowej planszy...");
-                        /*document.getElementById('game-board').innerHTML="";
-                        newBoard()*/
                         location.reload(true);
                     ;}
                 
